@@ -1,1 +1,51 @@
-signalstest9.xyz
+<!-- Example -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1030319667446085');
+fbq('init', '120475423231192');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1030319667446085&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<style>
+body,html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+}
+
+</style>
+
+</head>
+  <body>
+    <h2>Signalstest9 - Pixel 1030319667446085, 120475423231192</h2>
+    <br /><br />
+    <div class="flex-container">
+      <button onclick="fbq('track', 'Subscribe');">Subscribe</button>
+      <button onclick="fbq('track', 'ViewContent');">ViewContent</button>
+      <button onclick="fbq('track', 'Contact');">Contact</button>
+      <button onclick="fbq('track', 'AddToWishlist');">AddToWishlist</button>
+      <button onclick="fbq('track', 'AddToCart');">AddToCart</button>
+      <button onclick="fbq('track', 'Purchase', {currency: 'USD', value: 30.00});">Purchase</button>
+    </div>
+  </body>
+</html>
